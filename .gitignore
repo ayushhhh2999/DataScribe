@@ -1,9 +1,21 @@
+# Python venv
+venv/
 .venv/
-.venv/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.db
-*.sqlite3
+
+# Logs and data
 *.log
+*.sqlite3
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
